@@ -1,0 +1,20 @@
+{
+	"name": "pin-active",
+	"description": "Ensures VSCode's active tab is the leftmost",
+	"version": "0.0.1",
+	"publisher": "tripplyons",
+	"repository": "https://github.com/tripplyons/pin-active",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"contributes": {
+	},
+	"scripts": {},
+	"devDependencies": {
+		"@types/vscode": "^1.73.0"
+	}
+}
